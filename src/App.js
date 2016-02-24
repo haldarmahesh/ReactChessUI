@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import Knight from './Knight.js';
+import Square from './Square.js';
+
 
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <div>
+        <Square black>
+          <Knight/>
+        </Square>
+      </div>
     );
   }
 }
